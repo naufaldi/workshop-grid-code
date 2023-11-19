@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Certainly! Here's a README document for a workshop that focuses on using Next.js, TailwindCSS, and Shadcn/ui to teach about Grid layouts. The README is structured to provide an overview, prerequisites, setup instructions, and resources.
 
-## Getting Started
+````markdown
+# Next.js, TailwindCSS, and Shadcn/ui Workshop: Mastering Grid Layouts
 
-First, run the development server:
+Welcome to the "Mastering Grid Layouts" workshop! This workshop is designed to teach you how to effectively use Grid layouts in web development, utilizing the power of Next.js, TailwindCSS, and Shadcn/ui.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In this workshop, we'll dive deep into creating responsive and modern web layouts using the Grid system. We'll start with the basics of Grid layouts, move on to advanced techniques, and see how to integrate these layouts seamlessly with Next.js and TailwindCSS, enhanced by Shadcn/ui components.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### What You'll Learn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Basics of CSS Grid layouts.
+- Advanced Grid techniques for complex designs.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Basic knowledge of HTML & CSS.
+- Familiarity with React and Next.js.
+- Node.js and npm/yarn installed on your machine.
 
-## Learn More
+## Setup
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/naufaldi/workshop-grid-code
+   cd workshop-grid-code
+   ```
+````
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install Dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
 
-## Deploy on Vercel
+3. **Run the Development Server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+   Visit `http://localhost:3000` to view the project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Resources
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [TailwindCSS Grid Documentation](https://tailwindcss.com/docs/grid-template-columns)
+- [Shadcn/ui GitHub Repository](https://github.com/shadcn/ui)
+
+## Feedback and Contributions
+
+Your feedback is valuable to us! Feel free to open an issue or submit a pull request to contribute to this workshop.
+
+---
+
+Happy Coding! 🚀
