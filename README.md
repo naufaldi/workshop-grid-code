@@ -1,6 +1,3 @@
-Certainly! Here's a README document for a workshop that focuses on using Next.js, TailwindCSS, and Shadcn/ui to teach about Grid layouts. The README is structured to provide an overview, prerequisites, setup instructions, and resources.
-
-````markdown
 # Next.js, TailwindCSS, and Shadcn/ui Workshop: Mastering Grid Layouts
 
 Welcome to the "Mastering Grid Layouts" workshop! This workshop is designed to teach you how to effectively use Grid layouts in web development, utilizing the power of Next.js, TailwindCSS, and Shadcn/ui.
@@ -27,6 +24,7 @@ In this workshop, we'll dive deep into creating responsive and modern web layout
    git clone https://github.com/naufaldi/workshop-grid-code
    cd workshop-grid-code
    ```
+
 ````
 
 2. **Install Dependencies:**
@@ -58,3 +56,4 @@ Your feedback is valuable to us! Feel free to open an issue or submit a pull req
 ---
 
 Happy Coding! 🚀
+````
