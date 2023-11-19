@@ -20,12 +20,11 @@ In this workshop, we'll dive deep into creating responsive and modern web layout
 ## Setup
 
 1. **Clone the Repository:**
+
    ```bash
    git clone https://github.com/naufaldi/workshop-grid-code
    cd workshop-grid-code
    ```
-
-````
 
 2. **Install Dependencies:**
 
@@ -56,4 +55,3 @@ Your feedback is valuable to us! Feel free to open an issue or submit a pull req
 ---
 
 Happy Coding! 🚀
-````
