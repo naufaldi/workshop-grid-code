@@ -21,6 +21,7 @@ module.exports = {
     extend: {
       fontFamily: {
         jakarta: ['var(--font-jakarta)', ...fontFamily.sans],
+        sans: ['var(--font-sans)', ...fontFamily.sans],
       },
       keyframes: {
         'accordion-down': {
