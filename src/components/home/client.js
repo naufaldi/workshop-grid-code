@@ -1,4 +1,5 @@
 import React from 'react';
+import { Section } from '../common/section';
 
 const Client = () => {
   const ListClient = [
@@ -20,19 +21,16 @@ const Client = () => {
     },
   ];
   return (
-    <section
-      id="clients"
-      className="grid grid-cols-12 gap-x-[32px] max-w-[1210px] mx-auto mt-[414px]"
-    >
-      <div className="col-span-12 grid grid-cols-4 gap-x-[160px] px-[83px] text-center text-black">
+    <Section id="client" className=" mt-[100px] sm:mt-[240px]">
+      <div className="col-span-full grid grid-cols-4 sm:gap-x-[160px] sm:px-[83px] text-center text-black">
         {ListClient.map((item) => (
           <div>
-            <h2>{item.number}</h2>
-            <p>{item.caption}</p>
+            <h2 className="text-lg sm:text-xl">{item.number}</h2>
+            <p className="text-sm sm:text-base">{item.caption}</p>
           </div>
         ))}
       </div>
-    </section>
+    </Section>
   );
 };
 

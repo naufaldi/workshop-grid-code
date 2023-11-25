@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Testimoni = () => {
+  // bikin static file
   return (
     <section
       id="testimoni"
@@ -11,6 +12,7 @@ const Testimoni = () => {
         <h2>What Our Happy Client Say About Us</h2>
       </div>
       <div className="col-span-12 grid grid-cols-3 gap-x-[140px] gap-y-[54px] px-[32px]">
+        {/* Parsing props static file ke components */}
         <div className="flex flex-col gap-4 items-start p-[24px] border border-white">
           <h6 className="mb-2">Website My Hospital</h6>
           <p className="mb-[21px]">
